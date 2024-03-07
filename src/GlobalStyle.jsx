@@ -14,14 +14,39 @@ export const GlobalStyle = createGlobalStyle`
     width: 100%;
     height: 100%;
     transition: 0.5s;
-    background-color: #1C1C1C;
+    background-image: url('public/Assets/escuro-pokemon.jpeg');
+    background-size: cover;
+    background-position: 0;
   }
 
   .light {
     width: 100%;
     height: 100%;
     transition: 0.5s;
-    background-color: #F0F8FF;
+    background-image: url('public/Assets/claro-pokemons.png');
+    background-size: cover;
+    background-position: 0;
+  }
+
+  @media(max-width: 1200px){
+    .light {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    background-image: url('public/Assets/claro-responsivo.png');
+    background-size: contain;
+  }
+  }
+
+  @media(max-width: 780px){
+    .light {
+    background-image: url('public/Assets/responsivo-claro.png');
+  }
+  }
+  @media(max-width: 780px){
+    .dark {
+    background-image: url('public/Assets/responsive-escuro.png');
+  }
   }
 
     
