@@ -1,5 +1,5 @@
 <div>
-    <img src="./images-readme/Dark.png" alt="Print-tela-pokemon"/>
+    <img src="./images-readme/dark.png" />
 
 <img src="./images-readme/ligth.png" />
 
