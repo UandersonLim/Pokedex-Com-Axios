@@ -14,7 +14,7 @@ export const GlobalStyle = createGlobalStyle`
     width: 100%;
     height: 100%;
     transition: 0.5s;
-    background-image: url('public/Assets/escuro-pokemon.jpeg');
+    background-image: url('Assets/escuro-pokemon.jpeg');
     background-size: cover;
     background-position: 0;
   }
@@ -23,7 +23,7 @@ export const GlobalStyle = createGlobalStyle`
     width: 100%;
     height: 100%;
     transition: 0.5s;
-    background-image: url('public/Assets/claro-pokemons.png');
+    background-image: url('Assets/claro-pokemons.png');
     background-size: cover;
     background-position: 0;
   }
@@ -33,19 +33,19 @@ export const GlobalStyle = createGlobalStyle`
     width: 100%;
     height: 100%;
     transition: 0.5s;
-    background-image: url('public/Assets/claro-responsivo.png');
+    background-image: url('Assets/claro-responsivo.png');
     background-size: contain;
   }
   }
 
   @media(max-width: 780px){
     .light {
-    background-image: url('public/Assets/responsivo-claro.png');
+    background-image: url('Assets/responsivo-claro.png');
   }
   }
   @media(max-width: 780px){
     .dark {
-    background-image: url('public/Assets/responsive-escuro.png');
+    background-image: url('Assets/responsive-escuro.png');
   }
   }
 
